@@ -30,3 +30,5 @@ Le caractère Référence équivalent
 > " &quot;
 > ' &apos;
 > & &amp;
+
+> https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content
