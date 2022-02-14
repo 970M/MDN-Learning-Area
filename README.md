@@ -32,3 +32,5 @@ Le caractère Référence équivalent
 > & &amp;
 
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content
+
+#### Multimedia and embedding
