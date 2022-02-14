@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Chris Mills" />
+    <meta name="description" content="La Zone Apprentissage des documents web
+            du MDN a pour but de donner aux débutants du Web tout ce qu'ils doivent
+            savoir pour commencer le développement de pages webs et d'applications." />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Document</title>
+</head>
+<br>
+<p>Mon chat est <strong>très</strong> grincheux.</p>
+
+<!-- Éléments bloc vs en ligne -->
+<em>premier</em><em>deuxième</em><em>troisième</em>
+
+<p>quatrième</p>
+<p>cinquième</p>
+<p>sixième</p>
+
+<!-- Éléments vides -->
+<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" />
+
+<!-- Les attributs booléens-->
+<input type="text" disabled="disabled" />
+
+<!-- la présence de l'attribut disabled empêche l'utilisateur final d'entrer du texte dans le champ de saisie -->
+<input type="text" disabled />
+
+<!-- la saisie de texte est autorisée puisque l'attribut disabled est omis -->
+<input type="text" />
+
+<!-- Implémentation de la hiérarchie structurale -->
+
+<h1>L'ennui mortel</h1>
+
+<p>par Chris Mills</p>
+
+<h2>Chapitre I : La nuit noire</h2>
+
+<p>
+    Il faisait nuit noire. Quelque part une chouette ululait. La pluie
+    tombait sur ...
+</p>
+
+<h2>Chapitre II : Le silence éternel</h2>
+
+<p>
+    Notre protagoniste ne pouvait même pas murmurer à l'ombre de la
+    silhouette...
+</p>
+
+<h3>Le spectre parle</h3>
+
+<p>
+    Plusieurs heures s'étaient écoulées, quand soudain le spectre assis
+    se releva et s'exclama : « S'il vous plaît, ayez pitié de mon âme !
+    »...
+</p>
+
+<span style="font-size: 32px; margin: 21px 0">Est-ce un titre principal?</span>
+
+<!-- Listes non-ordonnées -->
+
+<ul>
+    lait œufs pain houmous
+</ul>
+
+<ul>
+    <li>lait</li>
+    <li>œufs</li>
+    <li>pain</li>
+    <li>houmous</li>
+</ul>
+
+<!-- Listes ordonnées-->
+
+<ol>
+    <li>Roulez jusqu'au bout de la route</li>
+    <li>Tournez à droite</li>
+    <li>Allez tout droit aux deux premiers ronds-points</li>
+    <li>Tournez à gauche au troisième rond-point</li>
+    <li>Roulez sur 300 mètres, l'école est sur votre droite</li>
+</ol>
+
+<!-- Imbriquer des listes-->
+
+<ol>
+    <li>Ôter la peau de l'ail et le hacher grossièrement.</li>
+    <li>
+        Enlever les graines et la tige du poivron, le hacher
+        grossièrement.
+    </li>
+    <li>
+        Mettre tous les ingrédients dans un robot mixer jusqu'à
+        l'obtention d'une pâte.
+        <ul>
+            <li>
+                Si vous voulez un houmous grenu, ne le mixez pas trop
+                longtemps.
+            </li>
+            <li>
+                Si vous voulez un houmous lisse, mixez-le plus
+                longtemps.
+            </li>
+        </ul>
+    </li>
+</ol>
+
+<!-- Soulignement et importance -->
+<p>
+    Je suis <em>content</em> que vous n'ayez pas été <em>en retard</em>.
+</p>
+
+<p>Ce liquide est <strong>hautement toxique</strong>.</p>
+
+<p>Je compte sur vous. <strong>Ne soyez pas en retard</strong> !</p>
+
+<p>
+    Ce liquide est <strong>hautement toxique</strong> — si vous en
+    buvez, <strong>vous pourriez en <em>mourir</em></strong>.
+</p>
+
+<!-- Italique, gras, soulignement -->
+<!-- noms scientifiques -->
+<p>
+    Le colibri à gorge rouge (<i>Archilochus colubris</i>) est le
+    colibri le plus courant dans l'ouest de l'Amérique du Nord.
+</p>
+
+<!-- mots dans une langue étrangère -->
+<p>
+    Le menu était un océan de mots exotiques comme
+    <i lang="uk-latn">vatrushka</i>, <i lang="id">nasi goreng</i> et
+    <i lang="en">porridge</i>.
+</p>
+
+<!-- une faute d'orthographe connue -->
+<p>
+    Un jour, j'apprendrai comment mieux
+    <u style="
+                    text-decoration-line: underline;
+                    text-decoration-style: wavy;
+                ">épeler</u>.
+</p>
+
+<!-- Mettre en évidence les mots‑clés dans un ensemble d'instructions -->
+<ol>
+    <li><b>Trancher</b> deux morceaux de pain dans la miche.</li>
+    <li>
+        <b>Mettre</b> une rondelle de tomate et une feuille de laitue
+        entre les deux tranches de pain.
+    </li>
+</ol>
+
+<!-- Anatomie d'un lien -->
+<p>
+    Je suis en train de créer un lien à
+    <a href="https://www.mozilla.org/fr/">la page d'accueil Mozilla</a>.
+</p>
+
+<p>
+    Je suis en train de créer un lien à
+    <a href="https://www.mozilla.org/fr/" title="Le meilleur endroit pour trouver plus d'informations sur la
+              mission de Mozilla et la manière de contribuer">la page d'accueil Mozilla</a>.
+</p>
+
+<!-- Liens de niveau bloc -->
+
+<a href="https://www.mozilla.org/fr/">
+    <img src="mozilla-image.png" alt="logo mozilla pointant sur la page d'accueil mozilla" />
+</a>
+
+<!-- Fragments de documents -->
+<h2 id="Adresse_mailing">Adresse de mailing</h2>
+
+<p>
+    Vous voulez nous écrire une lettre ? Utilisez notre
+    <a href="contacts.html#Adresse_mailing">adresse de contact</a>.
+</p>
+
+<p>
+    Vous trouverez n l'<a href="#Adresse_mailing">adresse de mailing</a>
+    de notre société au bas de cette page.
+</p>
+
+<p><a href="https://firefox.com/"> Télécharger Firefox </a></p>
+
+<p>
+    <a href="http://www.exemple.com/rapport-volumineux.pdf">
+        Télécharger le rapport des ventes (PDF, 10Mo)
+    </a>
+</p>
+
+<p>
+    <a href="http://www.exemple.com/flux-video/" target="_blank">
+        Regarder la vidéo (le flux s'ouvre dans un nouvel onglet,
+        qualité HD)
+    </a>
+</p>
+
+<p>
+    <a href="http://www.exemple.com/jeu-de-voiture">
+        Jouer au jeu de voiture (nécessite Flash)
+    </a>
+</p>
+
+<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr-FR"
+    download="firefox-latest-64bit-installer.exe">
+    Télécharger la version de Firefox pour Windows la plus récente
+    (64-bit)(français, France)
+</a>
+
+<!-- Liens de courriel -->
+
+</br>
+<a href="mailto:nullepart@mozilla.org">Envoyer un courriel à nullepart</a>
+
+<a
+    href="mailto:nullepart@mozilla.org?cc=nom2@rapidtables.com&bcc=nom3@rapidtables.com&subject=L%27objet%20du%20courriel&body=Le%20corps%20du%20courriel">
+    Envoyer un mail avec copie, copie cachée, sujet et corps de message
+</a>
+
+
+<!-- Listes descriptives -->
+<dl>
+    <dt>soliloque</dt>
+    <dd>Dans une pièce de théâtre, action d'un acteur adressant à lui-même ses pensées ou sentiments intimes et, de la
+        sorte, les faisant partager à son auditoire (mais pas aux autres personnages de la pièce).</dd>
+    <dt>monologue</dt>
+    <dd>Dans une pièce de théâtre, action d'un acteur partageant ses pensées à haute voix avec le public et tous les
+        personnages présents.</dd>
+    <dt>aparté</dt>
+    <dd>Dans une pièce de théâtre, action d'un acteur partageant une tirade uniquement avec le public en vue de produire
+        un effet dramatique ou humoristique. Il s'agit le plus souvent d'un sentiment, d'une pensée secrète ou d'une
+        information sur le contexte.</dd>
+</dl>
+</br>
+<dl>
+    <dt>aparté</dt>
+    <dd>Dans une pièce de théâtre, action d'un acteur partageant une tirade uniquement avec le public en vue de produire
+        un effet dramatique ou humoristique. Il s'agit le plus souvent d'un sentiment, d'une pensée secrète ou d'une
+        information sur le contexte.</dd>
+    <dd>En écriture, une partie de contenu relative au sujet en cours, mais qui, ne s'inscrivant pas dans le flux
+        principal du contenu, est donc présentée à part (souvent dans un encadré sur le côté).</dd>
+</dl>
+
+<!-- citation -->
+<p>L'<strong>Élément HTML <code>&lt;blockquote&gt;</code></strong> (ou <em>Élément HTML bloc
+        de citation</em>) indique que le bloc de texte inclus est une citation étendue.</p>
+
+<blockquote cite="/fr/docs/Web/HTML/Element/blockquote">
+    <p>L'<strong>Élément HTML <code>&lt;blockquote&gt;</code></strong> (ou <em>Élément HTML bloc de citation</em>)
+        indique que le bloc de texte inclus est une citation étendue.</p>
+</blockquote>
+
+<p>L'élément citation — <code>&lt;q&gt;</code> — est <q cite="/fr/docs/Web/HTML/Element/q">prévu
+        pour de courtes citations ne nécessitant pas un nouvel alinéa</q>.</p>
+
+<!-- Abréviations -->
+
+<p>Nous utilisons l'<abbr title="Hypertext Markup Language">HTML</abbr> pour structurer nos documents web.</p>
+
+<p>Je pense que le <abbr title="Révérend">R.</abbr> Green l'a fait dans la cuisine avec une tronçonneuse.</p>
+
+<!-- Balisage des détails de contact -->
+<address>
+    <p>Chris Mills, Manchester, The Grim North, UK</p>
+</address>
+
+<address>
+    <p>Page écrite par <a href="../authors/chris-mills/">Chris Mills</a>.</p>
+</address>
+
+<!-- Exposants et indices -->
+
+<p>Ma date de naissance est le 1<sup>er</sup> mai 2001.</p>
+<p>La formule chimique de la caféine est C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+<p>Si x<sup>2</sup> égale 9, x doit valoir 3 ou -3.</p>
+
+<!-- HTML met à votre dispositon un certain nombre d'éléments pour marquer du code informatique :
+
+    <code> : pour marquer des parties génériques de code.
+    <pre> : pour conserver les blancs (généralement dans les blocs de code) — si vous indentez ou mettez des blancs en excès dans votre texte, les navigateurs les ignoreront et vous ne les verrez plus dans le rendu de la page. Par contre si vous enveloppez le texte dans des balises <pre></pre>, les blancs seront rendus tels qu'il se présentent dans votre éditeur de texte.
+    <var> : pour marquer spécifiquement les noms de variables.
+    <kbd> : pour marquer les touches de clavier (et autres types d'entrées) à presser sur l'ordinateur.
+    <samp> : pour marquer une sortie de programme. -->
+
+<pre><code>var para = document.querySelector('p');
+
+            para.onclick = function() {
+              alert('Owww, arrête de me toucher !');
+            }</code></pre>
+
+<p>N'utilisez pas d'éléments de présentation comme <code>&lt;font&gt;</code> et <code>&lt;center&gt;</code>.</p>
+
+<p>Dans l'exemple JavaScript ci‑dessus, <var>para</var> représente un élément paragraphe.</p>
+
+
+<p>Sélectionnez la totalité du texte avec <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+
+<pre>$ <kbd>ping mozilla.org</kbd>
+            <samp>PING mozilla.org (63.245.208.195) 56(84) bytes of data.
+            64 bytes from mozilla.org (63.245.208.195): icmp_seq=1 ttl=46 time=191 ms</samp></pre>
+
+
+<!-- Balisage des heures et dates -->
+<time datetime="2016-01-20">20 janvier 2016</time>
+
+<!-- Simple date standard -->
+<time datetime="2016-01-20">20 janvier 2016</time>
+<!-- Juste l'année et le mois -->
+<time datetime="2016-01">janvier 2016</time>
+<!-- Juste le mois et les jour -->
+<time datetime="01-20">20 janvier</time>
+<!-- Juste l'heure, heure et minutes -->
+<time datetime="19:30">19h30</time>
+<!-- Vous pouvez aussi mettre les secondes et les millisecondes ! -->
+<time datetime="19:30:01.856">19h30m1,856s</time>
+<!-- Date et heure -->
+<time datetime="2016-01-20T19:30">19h30, le 20 janvier 2016</time>
+<!-- Date et heure avec décalage de fuseau horaire -->
+<time datetime="2016-01-20T19:30+01:00">19h30, le 20 janvier 2016 corespond à 20h30 en France</time>
+<!-- Appel d'un numéro de semains donné -->
+<time datetime="2016-W04">La 4e semaine de 2016</time>
+
+
+<!-- 
+header : <header>.
+barre de navigation : <nav>.
+contenu principal : <main>, avec diverses sous‑sections de contenu représentées à l'aide de des éléments <article>, <section> et <div>.
+barre latérale : <aside> ; souvent mise à l'intérieur de l'élément <main>.
+pied de page : <footer>. 
+-->
+<hr>
+<div class="panier">
+    <h2>Panier d'achat</h2>
+    <ul>
+        <li>
+            <p><a href=""><b>Boucles d'oreilles en argent</b></a>: €99,95.</p>
+            <img src="../products/3333-0985/thumb.png" alt="Boucles d'oreilles en argent">
+        </li>
+        <li>
+            ...
+        </li>
+    </ul>
+    <p>Total des achats : €237,89</p>
+</div>
+<hr>
+<p>Il y avait une fois une fille nommée Nell<br>
+    Qui aimait écrire du HTML<br>
+    Mais ses structures et sémantiques affligeantes<br>
+    rendaient de ses marquages la lecture inélégante.</p>
+<hr>
+</body>
+
+</html>
