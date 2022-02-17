@@ -36,3 +36,4 @@ Le caractère Référence équivalent
 #### Multimedia and embedding
 
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding
+> https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
