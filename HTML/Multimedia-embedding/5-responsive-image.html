@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img1 {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .img2 {
+            width: 320px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Commutations de résolution : tailles différentes -->
+    <img class="img1" srcset="asset/elva-fairy-480w.jpg 480w,
+                asset/elva-fairy-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="asset/elva-fairy-800w.jpg"
+        alt="Elva dressed as a fairy">
+
+
+    <!-- Commutation de résolution : même taille, résolutions différentes -->
+    <img class="img2" srcset="asset/elva-fairy-320w.jpg,
+    asset/elva-fairy-480w.jpg 1.5x,
+    asset/elva-fairy-640w.jpg 2x" src="asset/elva-fairy-640w.jpg" alt="Elva habillée en fée">
+
+
+    <picture>
+        <source media="(max-width: 799px)" srcset="asset/elva-480w-close-portrait.jpg">
+        <source media="(min-width: 800px)" srcset="asset/elva-800w.jpg">
+        <img src="asset/elva-800w.jpg" alt="Chris debout tenant sa fille Elva dans ses bras">
+    </picture>
+
+
+</body>
+
+</html>
