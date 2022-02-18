@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="minimal-tables.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1>Tableaux basiques</h1>
+
+    <h3>Tableau simple</h3>
+    <table>
+        <tr>
+            <td>Bonjour, je suis votre première cellule </td>
+            <td>je suis votre deuxième cellule</td>
+            <td>je suis votre troisième cellule</td>
+            <td>je suis votre quatrième cellule</td>
+        </tr>
+
+        <tr>
+            <td>Bonjour, je suis votre deuxieme ligne </td>
+            <td>je suis votre deuxième cellule </td>
+            <td>je suis votre troisième cellule </td>
+            <td>je suis votre quatrième cellule </td>
+        </tr>
+    </table>
+
+    <h3>Tableau avec entêtes</h3>
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Knocky</th>
+            <th>Flor</th>
+            <th>Ella</th>
+            <th>Juan</th>
+        </tr>
+        <tr>
+            <th>Race</th>
+            <td>Jack Russell</td>
+            <td>Poodle</td>
+            <td>Streetdog</td>
+            <td>Cocker Spaniel</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>16</td>
+            <td>9</td>
+            <td>10</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>Propriétaire</th>
+            <td>Belle-mère</td>
+            <td>Moi</td>
+            <td>Moi</td>
+            <td>Belle-soeur</td>
+        </tr>
+        <tr>
+            <th>Habitudes alimentaires</th>
+            <td>Mange tous les restes</td>
+            <td>Grignotte la nourriture</td>
+            <td>Mange copieusement</td>
+            <td>Mange jusqu'à ce qu'il éclate</td>
+        </tr>
+    </table>
+
+
+    <h3>Etendre les celulles</h3>
+    <h4>Structure de base</h4>
+    <table>
+        <tr>
+            <th>Animaux</th>
+        </tr>
+        <tr>
+            <th>Hippopotame</th>
+        </tr>
+        <tr>
+            <th>Cheval</th>
+            <td>Jument</td>
+        </tr>
+        <tr>
+            <td>Étalon</td>
+        </tr>
+        <tr>
+            <th>Crocodile</th>
+        </tr>
+        <tr>
+            <th>Poulet</th>
+            <td>Coq</td>
+        </tr>
+        <tr>
+            <td>Coq</td>
+        </tr>
+    </table>
+
+    <h4>Mise en forme</h4>
+    <table>
+        <tr>
+            <th colspan="2">Animaux</th>
+        </tr>
+        <tr>
+            <th colspan="2">Hippopotame</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Cheval</th>
+            <td>Jument</td>
+        </tr>
+        <tr>
+            <td>Étalon</td>
+        </tr>
+        <tr>
+            <th colspan="2">Crocodile</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Poulet</th>
+            <td>Coq</td>
+        </tr>
+        <tr>
+            <td>Poule</td>
+        </tr>
+    </table>
+
+
+    <h3>Attribuer un style commun aux colonnes </h3>
+    <h4>Méthode naïve</h4>
+    <table>
+        <tr>
+            <th>Data 1</th>
+            <th style="background-color: yellow">Data 2</th>
+        </tr>
+        <tr>
+            <td>Calcutta</td>
+            <td style="background-color: yellow">Orange</td>
+        </tr>
+        <tr>
+            <td>Robots</td>
+            <td style="background-color: yellow">Jazz</td>
+        </tr>
+    </table>
+
+    <h4>Méthode avancée</h4>
+    <table>
+        <colgroup>
+            <col style="background-color: green">
+            <col style="background-color: red">
+        </colgroup>
+        <tr>
+            <th>Data 1</th>
+            <th>Data 2</th>
+        </tr>
+        <tr>
+            <td>Calcutta</td>
+            <td>Orange</td>
+        </tr>
+        <tr>
+            <td>Robots</td>
+            <td>Jazz</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
