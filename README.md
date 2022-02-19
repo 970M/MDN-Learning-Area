@@ -40,4 +40,14 @@ Pour commencer, posez-vous ces questions :
 
 ### CSS
 
+#### Getting started
+
 > https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/How_CSS_is_structured
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/How_CSS_works
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Using_your_new_knowledge
+
+#### Building blocks
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks
