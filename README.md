@@ -51,3 +51,7 @@ Pour commencer, posez-vous ces questions :
 #### Building blocks
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors

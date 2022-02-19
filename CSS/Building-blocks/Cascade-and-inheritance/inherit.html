@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 1 ************************************* */
+    body {
+        color: green;
+    }
+
+    /* .my-class-0 a {
+        color: inherit;
+    }
+
+    .my-class-1 {
+        color: paleturquoise;
+    } */
+
+    .my-class-1 a {
+        color: inherit;
+    }
+
+    .my-class-2 a {
+        color: initial;
+    }
+
+    .my-class-3 a {
+        color: unset;
+    }
+
+    /* 2 ************************************** */
+
+
+    h2 {
+        font-size: 2em;
+        color: #000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .small {
+        font-size: 1em;
+    }
+
+    .bright {
+        color: rebeccapurple;
+    }
+</style>
+<!-- 
+inherit
+La propriété correspondante prend la valeur définie dans l'élément parent. Dans les faits, cela "active l'héritage".
+
+initial
+La propriété correspondante prend la valeur par défaut définie dans la feuille de style du navigateur. Si aucune valeur n'est définie par défaut dans le navigateur et que la propriété est transmise par héritage la propriété est redéfinie à inherit.
+
+unset
+Redéfinit la propriété à sa valeur naturelle : si la propriété est transmise par héritage, le comportement est le même que  inherit, sinon il est identique à initial.
+-->
+
+<body>
+
+    <!-- /* 1 ************************************** */ -->
+
+
+    <ul>
+        <li class="my-class-0">Default <a href="#">link</a> color</li>
+        <li class="my-class-1">Inherit the <a href="#">link</a> color</li>
+        <li class="my-class-2">Reset the <a href="#">link</a> color</li>
+        <li class="my-class-3">Unset the <a href="#">link</a> color</li>
+    </ul>
+
+    <!-- /* 2 ************************************** */ -->
+
+    <h2>Heading with no class</h2>
+    <h2 class="small">Heading with class of small</h2>
+    <h2 class="bright">Heading with class of bright</h2>
+
+
+</body>
+
+</html>
