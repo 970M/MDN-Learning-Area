@@ -22,18 +22,22 @@ Pour commencer, posez-vous ces questions :
 
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started
 
-Le caractère Référence équivalent
-< &lt;
-
->     &gt;
->
-> " &quot;
-> ' &apos;
-> & &amp;
-
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content
 
 #### Multimedia and embedding
 
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding
+
 > https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+#### HTML tables
+
+> https://developer.mozilla.org/fr/docs/Learn/HTML/Tables/Basics
+
+> https://developer.mozilla.org/fr/docs/Learn/HTML/Tables/Advanced
+
+> https://developer.mozilla.org/fr/docs/Learn/HTML/Tables/Structuring_planet_data
+
+### CSS
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/How_CSS_is_structured
