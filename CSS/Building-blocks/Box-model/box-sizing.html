@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            border: 1px dotted grey;
+        }
+
+
+        .box-std {
+            /* box-sizing: content-box; */
+            height: 200px;
+            width: 100%;
+            margin: 20px;
+            padding: 10px;
+            border: 15px solid green;
+        }
+
+        .box-alt {
+            box-sizing: border-box;
+            height: 200px;
+            width: 100%;
+            margin: 20px;
+            padding: 10px;
+            border: 15px solid green;
+        }
+
+        /* ********************************************* */
+
+        .box {
+            border: 5px solid rebeccapurple;
+            background-color: lightgray;
+            padding: 40px;
+            margin: 40px;
+            width: 300px;
+            height: 150px;
+        }
+
+        .alternate {
+            box-sizing: border-box;
+            width: 390px;
+            height: 240px;
+        }
+
+        /* ********************************************* */
+
+        .container {
+            border-top: 5px dotted green;
+            border-right: 1px solid black;
+            border-bottom: 20px double rgb(23, 45, 145);
+        }
+
+        .box-border {
+            border: 1px solid #333333;
+            border-top-style: dotted;
+            border-right-width: 20px;
+            border-bottom-color: hotpink;
+        }
+
+        /* ********************************************* */
+
+        span {
+            margin: 20px;
+            padding: 20px;
+            width: 80px;
+            height: 50px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            display: inline-block;
+        }
+
+        /* ********************************************* */
+
+        .links-list {
+            display: flex;
+        }
+
+        .links-list li {
+            list-style-type: none;
+        }
+
+        .links-list a {
+            display: inline-block;
+            background-color: rgb(179, 57, 81);
+            color: #fff;
+            text-decoration: none;
+            padding: 1em 2em;
+        }
+
+        .links-list a:hover {
+            background-color: rgb(66, 28, 40);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Standard</h2>
+    <div class="std">
+        <div class="box-std">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto ullam odit, ut sit ex quam! Optio
+            ducimus sit a vero omnis adipisci tempore dolorum repudiandae consequatur assumenda similique sunt ex illo,
+            accusamus, dolor nemo magnam quis facere eaque facilis at. Vero doloribus nam veniam, nostrum repellendus
+            eaque, quae, eos voluptate exercitationem assumenda perferendis adipisci consectetur nulla! Alias
+            reprehenderit ea inventore quo harum temporibus accusamus laboriosam architecto eum odio quibusdam optio,
+            distinctio esse iure officiis unde nihil. Perspiciatis, consectetur maxime amet impedit deserunt assumenda
+            obcaecati nostrum aliquam modi. Laudantium quasi assumenda quae ipsa praesentium ipsum incidunt mollitia
+            quos, rerum doloribus!
+        </div>
+    </div>
+
+    <h2>Alternatif</h2>
+    <div class="alt">
+        <div class="box-alt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto ullam odit, ut sit ex quam! Optio
+            ducimus sit a vero omnis adipisci tempore dolorum repudiandae consequatur assumenda similique sunt ex illo,
+            accusamus, dolor nemo magnam quis facere eaque facilis at. Vero doloribus nam veniam, nostrum repellendus
+            eaque, quae, eos voluptate exercitationem assumenda perferendis adipisci consectetur nulla! Alias
+            reprehenderit ea inventore quo harum temporibus accusamus laboriosam architecto eum odio quibusdam optio,
+            distinctio esse iure officiis unde nihil. Perspiciatis, consectetur maxime amet impedit deserunt assumenda
+            obcaecati nostrum aliquam modi. Laudantium quasi assumenda quae ipsa praesentium ipsum incidunt mollitia
+            quos, rerum doloribus!
+        </div>
+    </div>
+
+    <!-- ********************************************************** -->
+
+
+    <div class="box">I use the standard box model.</div>
+    <div class="box alternate">I use the alternate box model.</div>
+
+    <!-- ********************************************************** -->
+
+    <div class="container">
+        <div class="box-border">Change my borders.</div>
+    </div>
+
+    <!-- ********************************************************** -->
+
+    <p>
+        I am a paragraph and this is a <span>span</span> inside that paragraph. A span is an inline element and so does
+        not respect width and height.
+    </p>
+    <!-- ********************************************************** -->
+
+    <nav>
+        <ul class="links-list">
+            <li><a href="">Link one</a></li>
+            <li><a href="">Link two</a></li>
+            <li><a href="">Link three</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

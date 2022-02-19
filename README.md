@@ -55,3 +55,7 @@ Pour commencer, posez-vous ces questions :
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/The_box_model
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders
