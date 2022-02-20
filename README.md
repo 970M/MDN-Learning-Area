@@ -59,3 +59,9 @@ Pour commencer, posez-vous ces questions :
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/The_box_model
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Handling_different_text_directions
+
+## Logs
+
+Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)

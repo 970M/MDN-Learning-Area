@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            border: 1px dotted red;
+        }
+
+        /* Couleurs d'arrière-plan */
+        .box {
+            background-color: #567895;
+        }
+
+        h2 {
+            background-color: black;
+            color: white;
+        }
+
+        span {
+            background-color: rgba(152, 255, 255, .5);
+        }
+
+
+
+
+
+        /* Images d'arrière-plan */
+        .box-w {
+            width: 50%;
+            height: 400px;
+
+        }
+
+        .a {
+
+            background-image: url(./assets/balloons.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .b {
+            background-image: url(./assets/star.png);
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            background-position: 50px bottom;
+            /* background-position: 50px 10%; */
+            background-attachment: scroll;
+        }
+
+        /* Bordures */
+        .box-b {
+            height: 300px;
+            background-color: #567895;
+            border: 5px solid #0b385f;
+            border-bottom-style: dashed;
+            color: #fff;
+            border-radius: 10px;
+            border-top-right-radius: 1em 10%;
+        }
+
+        .box-b h2 {
+            border-top: 2px dotted rebeccapurple;
+            border-bottom: 1em double rgb(24, 163, 78);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Couleurs d'arrière-plan -->
+    <div class="box">
+        <h2>Background Colors</h2>
+        <p>Try changing the background <span>colors</span>.</p>
+    </div>
+
+    <!-- Images d'arrière-plan -->
+    <div class="wrapper">
+        <div class="box-w a"></div>
+        <div class="box-w b"></div>
+    </div>
+
+    <!-- Bordures -->
+    <div class="box-b">
+        <h2>Borders</h2>
+        <p>Try changing the borders.</p>
+    </div>
+
+
+
+</body>
+
+</html>
