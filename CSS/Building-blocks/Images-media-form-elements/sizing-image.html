@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        /* Comportment par défaut */
+        .box {
+            border: 5px solid darkblue;
+            width: 200px;
+        }
+
+        img {}
+
+        /* Gérer le problème de débordement */
+        .box2 {
+            border: 5px solid darkblue;
+            width: 200px;
+            height: 200px;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .cover {
+            object-fit: cover;
+        }
+
+        .contain {
+            object-fit: contain;
+        }
+
+        /* img {
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+} */
+    </style>
+</head>
+
+<body>
+
+    <!-- Comportment par défaut -->
+    <h2>Comportment par défaut</h2>
+    <div class="wrapper">
+        <div class="box"><img src="assets/logo128.png" alt="star"></div>
+        <div class="box"><img src="assets/balloons640-427.jpg" alt="balloons"></div>
+    </div>
+
+    <!-- Gérer le problème de débordement -->
+    <h2>Gestion du débordement</h2>
+    <div class="wrapper">
+        <div class="box2"><img src="assets/balloons640-427.jpg" alt="balloons" class="cover"></div>
+        <div class="box2"><img src="assets/balloons640-427.jpg" alt="balloons" class="contain"></div>
+    </div>
+</body>
+
+</html>
