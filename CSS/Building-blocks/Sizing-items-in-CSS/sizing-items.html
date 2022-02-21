@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px dotted grey;
+            /* box-sizing: border-box; */
+        }
+
+        /* Spécifier une taille */
+        .box-w {
+            border: 5px solid darkblue;
+            height: 150px;
+            width: 200px;
+        }
+
+        .container {
+            border: 5px solid black;
+            width: 200px;
+            height: 50px;
+        }
+
+
+        .content {
+            border: 2px solid grey;
+            width: 50%;
+            height: 100%;
+        }
+
+        .box-1 {
+            border: 2px solid grey;
+            min-width: 800px;
+            height: 150px;
+        }
+
+        .box-2 {
+            border: 2px solid grey;
+            max-width: 8 00px;
+            height: 150px;
+        }
+
+        /* Tailles min- et max- */
+        .box-3 {
+            border: 5px solid darkblue;
+            min-height: 150px;
+            width: 200px;
+        }
+
+        /* star */
+        .box-s {
+            width: 200px;
+        }
+
+        .minibox {
+            width: 50px;
+        }
+
+        .width {
+            width: 100%;
+        }
+
+        .max {
+            max-width: 100%;
+        }
+
+        /* Unités de la fenêtre d'affichage */
+        .box-t {
+            border: 5px solid darkblue;
+            /* display: flex; */
+            width: 20vw;
+            height: 50vh;
+            font-size: 10vh;
+            display: table-cell;
+            vertical-align: middle
+        }
+
+        div.container2 {
+
+            height: 200px;
+            /*  min-height: 200em; */
+            display: table-cell;
+            vertical-align: middle
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Spécifier une taille -->
+    <div class="wrapper">
+
+        <div class="box-w">These boxes both have a height set, this box has content in it which will need more space
+            than
+            the assigned height, and so we get overflow. </div>
+        <div class="box-w"></div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+        </div>
+    </div>
+
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+
+    <!-- Tailles min- et max- -->
+    <div class="wrapper">
+        <div class="box-3"></div>
+        <div class="box-3">These boxes both have a min-height set, this box has content in it which will need more space
+            than the assigned height, and so it grows from the minimum.</div>
+    </div>
+    <!-- star -->
+    <div class="wrapper">
+        <div class="box-s"><img src="assets/logo128.png" alt="star" class="width"></div>
+        <div class="box-s"><img src="assets/logo128.png" alt="star" class="max"></div>
+        <div class="minibox"><img src="assets/logo128.png" alt="star" class="max"></div>
+    </div>
+
+    <!-- Unités de la fenêtre d'affichage -->
+    <div class="box-t">
+        A
+    </div>
+    <br>
+
+    <div class="container2">
+        <p>Ce court paragraphe est centré...</p>
+    </div>
+</body>
+
+</html>
