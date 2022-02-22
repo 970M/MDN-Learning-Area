@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px dotted grey;
+            /* box-sizing: border-box; */
+        }
+
+        /* Style général */
+
+        html {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        ul,
+        ol,
+        dl,
+        p {
+            font-size: 1.5rem;
+        }
+
+        li,
+        p {
+            line-height: 1.5;
+        }
+
+        /* Styles des listes descriptives */
+
+        dd,
+        dt {
+            line-height: 1.5;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+        }
+
+        ul {
+            padding-left: 2rem;
+            list-style-type: none;
+        }
+
+        ul li {
+            padding-left: 2rem;
+            background-image: url(star.png);
+            background-position: 0 0;
+            background-size: 1.6rem 1.6rem;
+            background-repeat: no-repeat;
+        }
+
+        div li {
+            list-style-type: square;
+            /* list-style-image: url(star.png); */
+            list-style-position: inside;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Liste de courses (non ordonnée)</h2>
+
+    <p>Paragraphe de référence, paragraphe de référence, paragraphe de référence,
+        paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
+
+    <ul>
+        <li>Houmous</li>
+        <li>Pain blanc</li>
+        <li>Salade verte</li>
+        <li>Fromage halloumi</li>
+    </ul>
+    <div>
+        <ul class="liststyle">
+            <li>Houmous</li>
+            <li>Pain blanc</li>
+            <li>Salade verte</li>
+            <li>Fromage halloumi</li>
+        </ul>
+    </div>
+    <h2>Liste de recette (ordonnée)</h2>
+
+    <p>Paragraphe de référence, paragraphe de référence, paragraphe de référence,
+        paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
+
+    <ol>
+        <li>Faire griller le pain pitta, laisser refroidir, puis le trancher sur le côté.</li>
+        <li>Frire l'halloumi dans une poêle plate antiadhésive, jusqu'à ce qu'il soit doré des deux côtés.</li>
+        <li>Laver et hacher la salade.</li>
+        <li>Mettre la salade, l'houmous et l'halloumi frit entre les tranches de pain.</li>
+    </ol>
+
+    <h2>Liste descriptive des ingrédients</h2>
+
+    <p>Paragraphe de référence, paragraphe de référence, paragraphe de référence,
+        paragraphe de référence, paragraphe de référence, paragraphe de référence.</p>
+
+    <dl>
+        <dt>Houmous</dt>
+        <dd>Une purée ou sauce épaisse généralement faite de pois chiches mélangés avec du tahini, du jus de citron, du
+            sel, de l'ail et d'autres aromates.</dd>
+        <dt>Pain pitta</dt>
+        <dd>Un pain plat moelleux, légèrement levé.</dd>
+        <dt>Halloumi</dt>
+        <dd>Fromage à pâte mi-dure, non affiné, saumuré, à point de fusion plus élevé que d'habitude, généralement
+            fabriqué à partir de lait de chèvre et de brebis.</dd>
+        <dt>Salade verte</dt>
+        <dd>Ces feuilles vertes et saines que beaucoup d'entre nous n'utilisent que pour garnir les kebabs.</dd>
+    </dl>
+
+    <ol start="4">
+        <li>Faire griller le pain pitta, laisser refroidir, puis le trancher sur le côté.</li>
+        <li>Frire l'halloumi dans une poêle plate antiadhésive, jusqu'à ce qu'il soit doré des deux côtés.</li>
+        <li>Laver et hacher la salade.</li>
+        <li>Mettre la salade, l'houmous et l'halloumi frit entre les tranches de pain.</li>
+    </ol>
+</body>
+
+</html>
