@@ -48,7 +48,7 @@ Pour commencer, posez-vous ces questions :
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Using_your_new_knowledge
 
-#### Building blocks
+#### CSS Building blocks
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks
 
@@ -78,6 +78,8 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 > https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
 
+#### Styling Text
+
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Fundamentals
@@ -89,6 +91,10 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Web_fonts
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Typesetting_a_homepage
+
+#### CSS Layout
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Introduction
 
 ## Logs
 
