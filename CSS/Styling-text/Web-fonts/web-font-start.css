@@ -1,0 +1,41 @@
+/* Fontes Web */
+/* https://developer.mozilla.org/fr/docs/Learn/CSS/Styling_text/Web_fonts */
+
+@font-face {
+    font-family: "chunkfive_printregular";
+    src: url("fonts/chunk_five_print-webfont.woff2") format("woff2"),
+        url("fonts/chunk_five_print-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "aileronregular";
+    src: url("fonts/aileron-regular-webfont.woff2") format("woff2"),
+        url("fonts/aileron-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: chunkfive_printregular, serif;
+}
+h2 {
+    font-family: aileronregular, serif;
+}
+
+.first {
+    font-family: aileronregular, sans-serif;
+}
+
+.second {
+    font-family: acme, sans-serif;
+}
+
+.third {
+    font-family: aileronregular, sans-serif;
+}
+
+p {
+    font-family: acme, sans-serif;
+}
