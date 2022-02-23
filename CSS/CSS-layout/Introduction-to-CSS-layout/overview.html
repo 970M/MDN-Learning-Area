@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            border: dotted 1px grey;
+            box-sizing: border-box;
+        }
+
+        /* display: flex */
+        .flex .wrapper {
+            display: flex;
+        }
+
+        .flex .wrapper div {
+            border: solid 5px teal;
+            flex: 1;
+            height: 100px;
+        }
+
+        /* display: grid */
+        .grid .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-rows: 100px 100px; */
+            grid-template-rows: 100px 100px;
+            grid-gap: 10px;
+        }
+
+        .grid .wrapper div {
+            border: solid 5px teal;
+            height: 100px;
+        }
+
+        /* custom grid */
+
+        .cust .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px;
+            grid-gap: 10px;
+        }
+
+        .cust .box1 {
+            grid-column: 2 / 4;
+            grid-row: 1;
+        }
+
+        .cust .box2 {
+            grid-column: 1;
+            grid-row: 1 / 3;
+        }
+
+        .cust .box3 {
+            grid-row: 2;
+            grid-column: 3;
+        }
+
+        /* float */
+
+        .float .box {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 30px;
+        }
+
+        /* Positionnement */
+
+        .posit {
+            width: 500px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .posit p {
+            background-color: rgb(207, 232, 220);
+            border: 2px solid rgb(79, 185, 227);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+
+        }
+
+
+        .posit .positioned {
+            position: absolute;
+            background-color: rgba(255, 84, 104, 0.3);
+            border: 2px solid rgb(255, 84, 104);
+            top: 30px;
+            left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex">
+        <h2>display: flex</h2>
+
+        <div class="wrapper">
+            <div class="box1">Un</div>
+            <div class="box2">Deux</div>
+            <div class="box3">Trois</div>
+        </div>
+
+    </div>
+
+    <div class="grid">
+        <h2>display: grid</h2>
+        <div class="wrapper">
+            <div class="box1">Un</div>
+            <div class="box2">Deux</div>
+            <div class="box3">Trois</div>
+            <div class="box4">Quatre</div>
+            <div class="box5">Cinq</div>
+            <div class="box6">Six</div>
+        </div>
+    </div>
+
+    <div class="cust">
+        <h2>custom grid</h2>
+        <div class="wrapper">
+            <div class="box1">Un</div>
+            <div class="box2">Deux</div>
+            <div class="box3">Trois</div>
+        </div>
+    </div>
+
+
+    <div class="float">
+        <h2>Exemple simple de boîte flottante</h2>
+
+        <div class="box">Boîte flottante</div>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem
+            placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet
+            nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+            tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque, ac ornare ex malesuada
+            et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet turpis. Aenean finibus
+            sollicitudin eros pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec lacus varius
+            commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>
+    </div>
+
+
+    <div class="posit">
+        <h1>Positionnement</h1>
+
+        <p>Je suis un élément de niveau bloc de base.</p>
+        <p class="positioned">Je suis un élément de niveau bloc de base.</p>
+        <p>Je suis un élément de niveau bloc de base.</p>
+    </div>
+</body>
+
+</html>
