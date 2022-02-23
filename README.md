@@ -100,6 +100,8 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids
 
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Floats
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
