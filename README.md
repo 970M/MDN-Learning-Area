@@ -108,6 +108,16 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 > https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Responsive_Design
 
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Media_queries
+
+**_Pas fait :_**
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers
+
+> https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
