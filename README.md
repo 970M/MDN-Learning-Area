@@ -128,6 +128,10 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
 
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Object_building_practice
+
+Exercice fait avec la methode fetch
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
