@@ -128,9 +128,9 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
 
-> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Object_building_practice
-
 Exercice fait avec la methode fetch
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Object_building_practice
 
 ## Logs
 
