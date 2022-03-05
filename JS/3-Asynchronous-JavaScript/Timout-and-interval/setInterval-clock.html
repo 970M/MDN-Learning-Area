@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple setInterval clock</title>
+    <style>
+        p {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="clock"></p>
+    <button class="start">START</button>
+    <button class="stop">STOP</button>
+    <button class="reset">RESET</button>
+    <script>
+
+        function displayTime() {
+            let date = new Date();
+            let time = date.toLocaleTimeString();
+            document.querySelector('.clock').textContent = time;
+        }
+
+        let createClock = '';
+
+        document.querySelector(".start").addEventListener("click", () => {
+            displayTime();
+            createClock = setInterval(displayTime, 1000);
+        });
+
+        document.querySelector(".stop").addEventListener("click", () => {
+            clearInterval(createClock);
+        });
+
+        document.querySelector(".reset").addEventListener("click", () => {
+            document.querySelector('.clock').textContent = '';
+        });
+
+
+    </script>
+</body>
+
+</html>

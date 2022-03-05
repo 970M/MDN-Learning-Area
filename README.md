@@ -130,10 +130,17 @@ Essais dans CSS/Building-blocks/Box-model/box-sizing.html
 
 Exercice fait avec la methode fetch
 
-> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Object_building_practice
-> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Object_building_practice > https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Concepts
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Introducing
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Promises
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Async_await
 
 ## Logs
 
