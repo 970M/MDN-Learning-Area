@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+    <style>
+        * {
+            border: 1px dotted grey;
+        }
+
+        .highlight {
+            color: greenyellow;
+            background-color: red;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img src="dinosaur.png"
+            alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+    </section>
+
+
+    <script>
+
+        // Modification basique
+        const link = document.querySelector('a');
+        link.textContent = 'Mozilla Developer Network';
+        link.href = 'https://developer.mozilla.org';
+
+
+        // Créer et placer de nouveaux nœuds
+        var sect = document.querySelector('section');
+        var para = document.createElement('p');
+        para.textContent = 'We hope you enjoyed the ride.';
+        sect.appendChild(para);
+
+        // Ajouter un noeud texte
+        var text = document.createTextNode(' — the premier source for web development knowledge.');
+        var linkPara = document.querySelector('p');
+        linkPara.appendChild(text);
+
+        // Déplacer, au bout de 5s, le premier paragraphe de notre exemple au bas de la section
+        const tempo1 = setTimeout(() => {
+            sect.appendChild(linkPara)
+        }, 2000);
+
+        const tempo2 = setTimeout(() => {
+            linkPara.parentNode.removeChild(linkPara);
+        }, 4000);
+
+        // Manipuler le style
+
+        // 1ere méthode : inline styles
+        // para.style.color = 'white';
+        // para.style.backgroundColor = 'black';
+        para.style.padding = '10px';
+        para.style.width = '250px';
+        para.style.textAlign = 'center';
+
+        // 2nde méthode : class styles
+        const tempo3 = setTimeout(() => {
+            para.setAttribute('class', 'highlight');
+        }, 6000);
+
+    </script>
+</body>
+
+</html>

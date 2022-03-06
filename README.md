@@ -144,6 +144,14 @@ Exercice fait avec la methode fetch
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Asynchronous/Choosing_the_right_approach
 
+### API
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+
+> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
