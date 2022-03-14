@@ -154,6 +154,12 @@ Exercice fait avec la methode fetch
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs
 
+### Web form
+
+> https://developer.mozilla.org/fr/docs/Learn/Forms
+
+> https://developer.mozilla.org/fr/docs/Learn/Forms/Your_first_form
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
@@ -161,6 +167,8 @@ Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre s
 git commit --amend n'a pas modifie le depot distant Github
 
 ## To do
+
+> https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules
 
 > https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics
 
