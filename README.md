@@ -154,6 +154,15 @@ Exercice fait avec la methode fetch
 
 > https://developer.mozilla.org/fr/docs/Learn/Forms/Your_first_form
 
+**_UI / UX_**
+https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/
+
+https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php
+
+> https://developer.mozilla.org/fr/docs/Learn/Forms/How_to_structure_a_web_form
+
+---
+
 ## Logs
 
 Dans le modèle de boite standard et alternatif, la boite dépasse la fenêtre si width=100% car les padding, sizing, border s'ajoutent. Pas de solution pour l'instant ? (CSS/Building-blocks/Box-model/box-sizing.html)
