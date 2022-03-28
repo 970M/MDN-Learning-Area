@@ -161,6 +161,10 @@ https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons
 
 > https://developer.mozilla.org/fr/docs/Learn/Forms/How_to_structure_a_web_form
 
+> https://developer.mozilla.org/fr/docs/Learn/Forms/Basic_native_form_controls
+
+> https://developer.mozilla.org/fr/docs/Learn/Forms/HTML5_input_types
+
 ---
 
 ## Logs
